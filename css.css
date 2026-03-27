@@ -1,0 +1,15 @@
+.calc-container {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.result-text {
+    color: green;
+    font-weight: bold;
+    margin-top: 15px;
+}

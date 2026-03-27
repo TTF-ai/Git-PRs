@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>Calculator</h2>
+    <input type="number" id="n1" placeholder="Num 1">
+    <input type="number" id="n2" placeholder="Num 2">
+    <button onclick="calc()">Calculate</button>
+    <p id="res"></p>
+
+    <script>
+        function calc() {
+            let a = Number(document.getElementById('n1').value);
+            let b = Number(document.getElementById('n2').value);
+            document.getElementById('res').innerText = 
+                `Add: ${a+b}, Sub: ${a-b}, Mul: ${a*b}`;
+        }
+    </script>
+</body>
+</html>
